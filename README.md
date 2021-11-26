@@ -1,4 +1,4 @@
-# Prjoect-D13
+# Project-D13
 
 **ADL - Data mining and visualizations in driving recordings of Bolt project**
 
