@@ -5,7 +5,7 @@ from pyproj import Proj, transform
 import plotly.graph_objects as go
 from math import sqrt
 
-df = pd.read_csv("lidarFiles/cameraDriving_froward_frames.csv", skipinitialspace=True, usecols= ['autonomous', 'steering_angle', 'vehicle_speed', 'position_x', 'position_y', 'position_z', 'roll', 'pitch', 'yaw'])
+df = pd.read_csv("lidarFiles/lidar_frames.csv", skipinitialspace=True, usecols= ['autonomous', 'steering_angle', 'vehicle_speed', 'position_x', 'position_y', 'position_z', 'roll', 'pitch', 'yaw'])
 
 
 # ------------------- DRIVING WHITENESS ---------------------
